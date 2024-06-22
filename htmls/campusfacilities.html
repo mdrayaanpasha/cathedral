@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Facilities | Cathedral Comp PU College</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link rel="stylesheet" href="navs.css">    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        body {
+           margin:0;
+           padding:none;
+            overflow-x: hidden;
+            width: 100vw;
+        }
+        .theme {
+            color: darkgreen;
+            font-weight: bold;
+        }
+        .mar {
+            margin: 3vw;
+        }
+        #myNavbar img {
+            height: 11vh;
+            width: 10vw;
+        }
+        #myNavbar ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        #myNavbar a {
+            text-decoration: none;
+            color: white;
+            font-size: 2.2vh;
+        }
+        #myNavbar ul {
+            margin-left: 28vw;
+            margin-right: 0vw;
+        }
+        #myNavbar li {
+            list-style-type: none;
+            margin-left: 1vw;
+            margin-right: 1vw;
+        }
+        #myNavbar {
+            background: rgba(0, 0, 0, 0.734);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 10px 20px;
+            margin: none;
+        }
+        nav button, .navbar-toggler-icon, .navbar-toggler {
+            background-color: #fff;
+            color: white;
+        }
+        @media (max-width: 1000px) {
+            #myNavbar img {
+                width: 15vw;
+            }
+            nav img {
+                height: 15vw;
+            }
+        }
+        .top-faculty {
+            flex-wrap: wrap;
+        }
+        @media (max-width: 1200px) {
+            .f img {
+                height: 10vh;
+            }
+        }
+        @media (max-width: 1000px) {
+            .carousel, .slider, .carousel-inner, .carousel-item {
+                height: 70vh;
+                width: 100vw;
+            }
+            nav img {
+                height: 15vw;
+            }
+            .info p {
+                font-size: 2vh;
+            }
+            .f img {
+                width: 20vw;
+            }
+        }
+        @media (max-width: 900px) {
+            .f img {
+                width: 30vw !important;
+            }
+        }
+        @media (max-width: 800px) {
+            #myNavbar img {
+                width: 20vw;
+            }
+        }
+        @media (max-width: 600px) {
+            #myNavbar img {
+                width: 25vw;
+            }
+        }
+        @media (max-width: 400px) {
+            #myNavbar img {
+                display: none;
+            }
+        }
+        .depts {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        .card {
+            margin-top: 5vh;
+        }
+        .card img {
+            width: 47vw;
+            height: 26.4375vw;
+        }
+        .card{
+            width: 47vw;
+            border:1px solid grey;
+        }
+        .card img {
+            /* opacity: 0.8; */
+        }
+        .card h5{
+            color:darkgreen;
+        }
+        small, .text-body-secondary{
+            color:white !important;
+        }
+        .card{
+            background-color: #fff !important;
+            color: rgb(0, 0, 0) !important;
+        }
+        @media(max-width:700px){
+            .card img{
+                height: 56.25vw;
+                width: 97vw ;
+            }
+            .card{
+                width: 97vw ;
+            }
+        }
+        .navbar, nav{
+        background-color: rgba(0, 0, 0, 0.255) !important;
+        backdrop-filter: blur(10px);
+        color:white !important;
+        padding:1vw;
+        border-radius: 0vw 0vw 1vw 1vw;
+        
+    }
+    .navbar-brand,.nav-item,.nav-link{
+        color:white !important;
+    }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Cathedral Comp PU College</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Campus Life</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sports</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+    <div class="depts">
+        <div class="card mb-3 text-bg-dark">
+            <img src="../images/sports.png" class="card-img-top" alt="Multi-Sport Playground">
+            <div class="card-body">
+                <h5 class="card-title">Multi-Sport Playground</h5>
+                <p class="card-text">Our campus features a modern ground with multi-sport facilities, including throwball, volleyball, basketball, cricket, and football, promoting fitness and teamwork among students.</p>
+                <p class="card-text"><small class="text-body-secondary">Explore our sports facilities</small></p>
+            </div>
+        </div>
+        <div class="card mb-3 text-bg-dark">
+            <img src="../images/lib.png" class="card-img-top" alt="Library and Information Center">
+            <div class="card-body">
+                <h5 class="card-title">Library and Information Center</h5>
+                <p class="card-text">Our well-equipped library offers a vast collection of books, journals, and digital resources to support academic and personal growth.</p>
+                <p class="card-text"><small class="text-body-secondary">Discover a world of knowledge</small></p>
+            </div>
+        </div>
+        <div class="card mb-3 text-bg-dark">
+            <img src="../images/caf.png" class="card-img-top" alt="Cafeteria">
+            <div class="card-body">
+                <h5 class="card-title">Cafeteria</h5>
+                <p class="card-text">Our cafeteria provides a variety of healthy and delicious meals, snacks, and beverages to keep you energized throughout the day.</p>
+                <p class="card-text"><small class="text-body-secondary">Enjoy tasty meals and snacks</small></p>
+            </div>
+        </div>
+        <div class="card mb-3 text-bg-dark">
+            <img src="../images/smart.png" class="card-img-top" alt="Smart Classes">
+            <div class="card-body">
+                <h5 class="card-title">Smart Classes</h5>
+                <p class="card-text">Our smart classrooms are equipped with advanced teaching aids and technology to enhance the learning experience.</p>
+                <p class="card-text"><small class="text-body-secondary">Experience innovative learning</small></p>
+            </div>
+        </div>
+        <div class="card mb-3 text-bg-dark">
+            <img src="../images/cs-;.png" class="card-img-top" alt="Computer Lab">
+            <div class="card-body">
+                <h5 class="card-title">Computer Lab</h5>
+                <p class="card-text">Our computer lab is equipped with the latest hardware and software, providing students with essential technological skills.</p>
+                <p class="card-text"><small class="text-body-secondary">Access cutting-edge technology</small></p>
+            </div>
+        </div>
+        <div class="card mb-3 text-bg-dark">
+            <img src="../images/inf.png" class="card-img-top" alt="Infirmary">
+            <div class="card-body">
+                <h5 class="card-title">Infirmary</h5>
+                <p class="card-text">Our infirmary is equipped with essential medical facilities to ensure the health and well-being of our students.</p>
+                <p class="card-text"><small class="text-body-secondary">Caring for student health</small></p>
+            </div>
+        </div>
+        <div class="card mb-3 text-bg-dark">
+            <img src="../images/bio-l.png" class="card-img-top" alt="Biology Lab">
+            <div class="card-body">
+                <h5 class="card-title">Biology Lab</h5>
+                <p class="card-text">Our biology lab provides modern equipment and specimens for practical learning and experimentation in life sciences.</p>
+                <p class="card-text"><small class="text-body-secondary">Exploring the wonders of life</small></p>
+            </div>
+        </div>
+        <div class="card mb-3 text-bg-dark">
+            <img src="../images/elec-lab.png" class="card-img-top" alt="Electronics Lab">
+            <div class="card-body">
+                <h5 class="card-title">Electronics Lab</h5>
+                <p class="card-text">Our electronics lab is equipped with state-of-the-art instruments for hands-on learning in electronics and circuit design.</p>
+                <p class="card-text"><small class="text-body-secondary">Innovating with technology</small></p>
+            </div>
+        </div>
+        <div class="card mb-3 text-bg-dark">
+            <img src="../images/chem-lab.png" class="card-img-top" alt="Chemistry Lab">
+            <div class="card-body">
+                <h5 class="card-title">Chemistry Lab</h5>
+                <p class="card-text">Our chemistry lab offers a comprehensive setup for conducting experiments and understanding chemical principles.</p>
+                <p class="card-text"><small class="text-body-secondary">Experimenting with matter</small></p>
+            </div>
+        </div>
+        
+    </div>
+    <footer class="footer">
+        <div class="footer__container bd-container">
+          <h2 class="footer__title">Cathedral Composite Pre-University College</h2>
+          <hr>
+          <p><a href="">Courses</a> | <a href="">Sports</a> | <a href="">Campus Facilities</a></p>
+          
+      
+         
+          <p class="footer__copy">&#169; 2024 Cathedral Composite Pre-Universtiy College. All right reserved</p> 
+          <p>Powered By Rayaan Pasha.</p>
+            
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybBogGzB6YhZdU6p6a2EQ2K6A+G01E6Yhg1Jv0J20/7mfKU00" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-rbIHyihFzYVrrFY8pJDhoP5vy4N4fU5YjK38WjZ0qhAXL9KpR2Bx8KCbpHTPhr8v" crossorigin="anonymous"></script>
+</body>
+</html>
